@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.washington.zubinc.lifelineproject.Players">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/first"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintVertical_bias="0.038"
+        android:id="@+id/imageView" />
+    <TextView
+        android:layout_width="229dp"
+        android:layout_height="97dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in velit sit amet magna varius pharetra eget ac nulla. Ut at tincidunt risus. Phasellus posuere tincidunt leo ac congue. Donec at auctor nisi. Aenean molestie rhoncus nunc, eget viverra eros rhoncus a. Mauris eget felis ex. Aliquam pulvinar, dolor a dictum egestas, dui velit suscipit mi, eget gravida lorem dolor eget dolor. Vestibulum eu posuere quam, ac dapibus purus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintVertical_bias="0.038"
+        android:id="@+id/textView3" />
+    <Button
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/second"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintVertical_bias="0.22"
+        android:id="@+id/imageView2" />
+    <TextView
+        android:layout_width="229dp"
+        android:layout_height="97dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in velit sit amet magna varius pharetra eget ac nulla. Ut at tincidunt risus. Phasellus posuere tincidunt leo ac congue. Donec at auctor nisi. Aenean molestie rhoncus nunc, eget viverra eros rhoncus a. Mauris eget felis ex. Aliquam pulvinar, dolor a dictum egestas, dui velit suscipit mi, eget gravida lorem dolor eget dolor. Vestibulum eu posuere quam, ac dapibus purus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintVertical_bias="0.437"
+        android:id="@+id/textView4" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/third"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintVertical_bias="0.468" />
+    <TextView
+        android:layout_width="229dp"
+        android:layout_height="97dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in velit sit amet magna varius pharetra eget ac nulla. Ut at tincidunt risus. Phasellus posuere tincidunt leo ac congue. Donec at auctor nisi. Aenean molestie rhoncus nunc, eget viverra eros rhoncus a. Mauris eget felis ex. Aliquam pulvinar, dolor a dictum egestas, dui velit suscipit mi, eget gravida lorem dolor eget dolor. Vestibulum eu posuere quam, ac dapibus purus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintVertical_bias="0.811"
+        android:id="@+id/textView5" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintVertical_bias="0.466" />
+
+
+
+</android.support.constraint.ConstraintLayout>

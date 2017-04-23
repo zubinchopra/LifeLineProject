@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.washington.zubinc.lifelineproject.Screen1">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="156dp"
+        android:text="You go to your first class to attend the lecture. But you start to doze off. All of a sudden your phone dings. Your mom has texted you. She asks you to go to work and pay the rent by Thursday. RESPOND:"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/textView7"
+        android:layout_marginTop="67dp"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yeah Okay, that works"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+    <Button
+        android:id="@+id/o2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No i have got to study today"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.412"
+        android:layout_marginLeft="71dp" />
+
+</android.support.constraint.ConstraintLayout>
